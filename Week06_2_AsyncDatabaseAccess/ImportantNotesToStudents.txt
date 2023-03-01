@@ -1,0 +1,25 @@
+﻿A few quick notes about using Entity Framework (EF) in your Console Applications:
+* First make sure that you have installed the following 2 NuGet Packages into your project.
+	- Microsoft.EntityFrameworkCore.SqlServer
+	- Microsoft.EntityFrameworkCore.Tools
+* You will need to create a Database Context by inheriting from the DbContext class
+	- Ex: Data > AppDbContext
+* Create your models like you would create regular classes.
+	- Each model that need to be transferred to the database should have a DbSet Property added to the Database Context
+
+
+*** Before running any commands in Package Manager Console ***
+* If you have more than one project in the solution:
+- Make sure that you set the project as the startup project.
+- At the top of the Package Manager Console window, set the project as the Default Project in the dropdown list.
+
+
+* Database Migrations:
+	- When ready, create a new database migration using the following command in the Package Manager Console:
+ 	add-migration <your-migration-name>
+* Database update:
+	- After creating migration files, move the changes to the database using the following command in the Package Manager Console:
+		update-database
+
+*** For more details ***
+Please, review Week 6 recording
