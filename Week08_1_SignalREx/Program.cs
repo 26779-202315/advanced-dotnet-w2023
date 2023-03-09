@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
 using Week08_1_SignalREx;
+using Week08_1_SignalREx.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbContext")));
+
 
 // Add services to the container.
 builder.Services.AddRazorPages();
