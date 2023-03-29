@@ -75,13 +75,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_2_Factory", "Week10_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_3_FactoryMethod", "Week10_3_FactoryMethod\Week10_3_FactoryMethod.csproj", "{0AF94AD6-1677-4531-83BB-37CF7650FDFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week10_4_ChainOfResponsibility", "Week10_4_ChainOfResponsibility\Week10_4_ChainOfResponsibility.csproj", "{1BAA7266-502F-4E63-82D6-5E2C7D2BD8CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_4_ChainOfResponsibility", "Week10_4_ChainOfResponsibility\Week10_4_ChainOfResponsibility.csproj", "{1BAA7266-502F-4E63-82D6-5E2C7D2BD8CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week10_5_Observer", "Week10_5_Observer\Week10_5_Observer.csproj", "{746A5FA3-5317-4CE5-ACCA-A31DB70C7495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_5_Observer", "Week10_5_Observer\Week10_5_Observer.csproj", "{746A5FA3-5317-4CE5-ACCA-A31DB70C7495}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_6_CreationalDesignPatterns", "Week10_6_CreationalDesignPatterns\Week10_6_CreationalDesignPatterns.csproj", "{2BEE2FD5-688C-4853-8FF4-BDAA99B0DA06}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week10_7_BehaviouralDesignPatterns", "Week10_7_BehaviouralDesignPatterns\Week10_7_BehaviouralDesignPatterns.csproj", "{4E11E60B-DFDC-493F-87F5-EBCEE3519685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week11", "Week11", "{565430A1-26A7-45AF-B283-14781B9A1A1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11_1_Facade", "Week11_1_Facade\Week11_1_Facade.csproj", "{C0B79637-59FB-451B-ABB1-56C4070BCAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11_2_Decorator", "Week11_2_Decorator\Week11_2_Decorator.csproj", "{856507D9-C34A-48B5-AC43-75CBF6A456D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +215,14 @@ Global
 		{4E11E60B-DFDC-493F-87F5-EBCEE3519685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E11E60B-DFDC-493F-87F5-EBCEE3519685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E11E60B-DFDC-493F-87F5-EBCEE3519685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B79637-59FB-451B-ABB1-56C4070BCAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B79637-59FB-451B-ABB1-56C4070BCAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B79637-59FB-451B-ABB1-56C4070BCAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B79637-59FB-451B-ABB1-56C4070BCAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +258,8 @@ Global
 		{746A5FA3-5317-4CE5-ACCA-A31DB70C7495} = {FC95EF5A-6A39-4559-AFF3-E618E1071985}
 		{2BEE2FD5-688C-4853-8FF4-BDAA99B0DA06} = {FC95EF5A-6A39-4559-AFF3-E618E1071985}
 		{4E11E60B-DFDC-493F-87F5-EBCEE3519685} = {FC95EF5A-6A39-4559-AFF3-E618E1071985}
+		{C0B79637-59FB-451B-ABB1-56C4070BCAA9} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
+		{856507D9-C34A-48B5-AC43-75CBF6A456D8} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D63E537D-A07C-40E7-9440-591450607814}
