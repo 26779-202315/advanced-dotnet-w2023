@@ -89,6 +89,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11_1_Facade", "Week11_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week11_2_Decorator", "Week11_2_Decorator\Week11_2_Decorator.csproj", "{856507D9-C34A-48B5-AC43-75CBF6A456D8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11_3_ConcurrencyDesignPatterns", "Week11_3_ConcurrencyDesignPatterns\Week11_3_ConcurrencyDesignPatterns.csproj", "{1AFE6807-B0AE-489A-BEDC-82273B147CBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week11_4_StructuralDesignPatterns", "Week11_4_StructuralDesignPatterns\Week11_4_StructuralDesignPatterns.csproj", "{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +227,14 @@ Global
 		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{856507D9-C34A-48B5-AC43-75CBF6A456D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFE6807-B0AE-489A-BEDC-82273B147CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFE6807-B0AE-489A-BEDC-82273B147CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFE6807-B0AE-489A-BEDC-82273B147CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFE6807-B0AE-489A-BEDC-82273B147CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -260,6 +272,8 @@ Global
 		{4E11E60B-DFDC-493F-87F5-EBCEE3519685} = {FC95EF5A-6A39-4559-AFF3-E618E1071985}
 		{C0B79637-59FB-451B-ABB1-56C4070BCAA9} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
 		{856507D9-C34A-48B5-AC43-75CBF6A456D8} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
+		{1AFE6807-B0AE-489A-BEDC-82273B147CBE} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
+		{6CB722BE-9B49-4BCF-92B0-7FFADDD5B35C} = {565430A1-26A7-45AF-B283-14781B9A1A1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D63E537D-A07C-40E7-9440-591450607814}
